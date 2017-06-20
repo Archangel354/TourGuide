@@ -30,7 +30,7 @@ public class RestaurantsFragment extends Fragment {
 
 
         final ArrayList<Word> words = new ArrayList<Word>();
-        //words.add(new Word("red", "wetetti", R.drawable.color_red, R.raw.color_red));
+        words.add(new Word("red", "wetetti", R.drawable.color_red, R.raw.color_red));
         words.add(new Word("green", "chokokki", R.drawable.color_green, R.raw.color_green));
         //words.add(new Word("brown", "takaakki", R.drawable.color_brown, R.raw.color_brown));
         //words.add(new Word("gray", "topoppi", R.drawable.color_gray, R.raw.color_gray));
