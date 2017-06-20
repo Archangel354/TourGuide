@@ -38,6 +38,6 @@ public class RestaurantsFragment extends Fragment {
         words.add(new Word("white", "kelelli", R.drawable.color_white, R.raw.color_white));
         words.add(new Word("dusty yellow", "topiis\u0259", R.drawable.color_dusty_yellow, R.raw.color_dusty_yellow));
         words.add(new Word("mustard yellow", "chiwiit\u0259", R.drawable.color_mustard_yellow, R.raw.color_mustard_yellow));
-    }
+        }
 
-}
+        }
