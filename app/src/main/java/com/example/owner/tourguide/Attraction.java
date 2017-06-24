@@ -10,16 +10,16 @@ public class Attraction {
     private String mAttractionTitle;
 
     // The description of the attraction in St. Pete
-    private String mAttractionDescription;
+    private String mAttractionAddress;
 
     // Image Resource ID for the Attraction variable
     private int mImageResourceID = NO_IMAGE_PROVIDED;
 
     private static final int NO_IMAGE_PROVIDED = -1;
 
-    public Attraction(String AttractionTitle, String AttractionDescription, int ImageResourceID) {
+    public Attraction(String AttractionTitle, String AttractionAddress, int ImageResourceID) {
         mAttractionTitle = AttractionTitle;
-        mAttractionDescription = AttractionDescription;
+        mAttractionAddress = AttractionAddress;
         mImageResourceID = ImageResourceID;
     }
 
@@ -27,8 +27,8 @@ public class Attraction {
         return mAttractionTitle;
     }
 
-    public String getmAttractionDescription() {
-        return mAttractionDescription;
+    public String getmAttractionAddress() {
+        return mAttractionAddress;
     }
 
     public int getmImageResourceID() {
