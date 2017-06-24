@@ -30,10 +30,10 @@ public class ParksFragment extends Fragment {
 
 
         final ArrayList<Attraction> attractions = new ArrayList<Attraction>();
-        attractions.add(new Attraction("Trip's Diner", "2339 Dr Martin Luther King Jr St North", R.drawable.tripsdiner_restaurant));
-        attractions.add(new Attraction("Red Mesa", "4912 4th St North", R.drawable.redmesa_restaurant));
-        attractions.add(new Attraction("Noble Crust", "8300 4th St North", R.drawable.noblecrust_restaurant));
-        attractions.add(new Attraction("Birch & Vine", "340 Beach Dr NE", R.drawable.birchandvine_restaurant));
+        attractions.add(new Attraction("Fort De Soto", "3500 Pinellas Bayway S, Tiere Verde, FL 33715", R.drawable.fortdesoto_park));
+        attractions.add(new Attraction("Sunken Gardens", "1825 4th Street N, St. Petersburg, FL 33704", R.drawable.sunkengardens_park));
+        attractions.add(new Attraction("Weedon Island", "1800 Weedon Dr NE, St. Petersburg, FL 33702", R.drawable.weedonisland_park));
+        attractions.add(new Attraction("Egmont Key", "St. Petersburg, FL 33715", R.drawable.egmontkey_park));
 
         AttractionAdapter adapter = new AttractionAdapter(getActivity(), attractions, R.color.category_parks);
 

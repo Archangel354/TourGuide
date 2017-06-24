@@ -35,7 +35,7 @@ public class Attraction {
         return mImageResourceID;
     }
 
-    public boolean hasImage(){
+    public boolean hasImage() {
         return mImageResourceID != NO_IMAGE_PROVIDED;
     }
 }

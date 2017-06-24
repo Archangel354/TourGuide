@@ -29,10 +29,11 @@ public class BeachesFragment extends Fragment {
 
 
         final ArrayList<Attraction> attractions = new ArrayList<Attraction>();
-        attractions.add(new Attraction("Trip's Diner", "2339 Dr Martin Luther King Jr St North", R.drawable.tripsdiner_restaurant));
-        attractions.add(new Attraction("Red Mesa", "4912 4th St North", R.drawable.redmesa_restaurant));
-        attractions.add(new Attraction("Noble Crust", "8300 4th St North", R.drawable.noblecrust_restaurant));
-        attractions.add(new Attraction("Birch & Vine", "340 Beach Dr NE", R.drawable.birchandvine_restaurant));
+        attractions.add(new Attraction("Pass-A-Grille Beach", " 113 11th Ave, St. Pete Beach, FL 33706", R.drawable.passagrille_beach));
+        attractions.add(new Attraction("Treasure Island", "10400 Gulf Blvd, Treasure Island, FL 33706", R.drawable.treasureisland_beach));
+        attractions.add(new Attraction("Archibald Beach Park", "15100 Gulf Blvd, St. Petersburg, FL 33708", R.drawable.archibald_beach));
+        attractions.add(new Attraction("Indian Rocks Beach", "1700 Gulf Blvd.\n" +
+                "Indian Rocks Beach, FL 33785", R.drawable.indianrocks_beach));
 
         AttractionAdapter adapter = new AttractionAdapter(getActivity(), attractions, R.color.category_beaches);
 
