@@ -1,6 +1,19 @@
 <resources>
     <string name="app_name">Tour Guide</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_restaurants">Go Eat</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_parks">Parks</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_museums">Museum
+
+    </string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_beaches">Beaches</string>
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
