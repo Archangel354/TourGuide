@@ -16,4 +16,36 @@
     <string name="category_beaches">Beaches</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tripsDinerTitle">Trip\'s Diner</string>
+    <string name="redMesaTitle">Red Mesa</string>
+    <string name="nobleCrustTitle">Noble Crust</string>
+    <string name="birchAndVineTitle"><![CDATA[Birch & Vine]]></string>
+    <string name="tripsDinerAddress">2339 Dr M.L.K. Jr St N, St. Petersburg, FL 33704</string>
+    <string name="redMesaAddress">4912 4th St N, St. Petersburg, FL 33703</string>
+    <string name="nobleCrustAddress">8300 4th St N, St. Petersburg, FL 33702</string>
+    <string name="birchAndVineAddress">340 Beach Dr NE, St. Petersburg, FL 33701</string>
+    <string name="fortDeSotoTitle">Fort De Soto</string>
+    <string name="fortDeSotoAddress">3500 Pinellas Bayway S, Tiere Verde, FL 33715</string>
+    <string name="sunkenGardensTitle">Sunken Gardens</string>
+    <string name="sunkenGardensAddress">1825 4th Street N, St. Petersburg, FL 33704</string>
+    <string name="weedonIslandTitle">Weedon Island</string>
+    <string name="weedonIslandAddress">1800 Weedon Dr NE, St. Petersburg, FL 33702</string>
+    <string name="egmontKeyTitle">Egmont Key</string>
+    <string name="egmontKeyAddress">St. Petersburg, FL 33715</string>
+    <string name="salvadorDaliTitle">Salvador Dalí Museum</string>
+    <string name="salvadorDaliAddress">1 Dali Blvd, St Petersburg, FL 33701</string>
+    <string name="fineArtsTitle">Museum of Fine Arts</string>
+    <string name="fineArtsAddress">255 Beach Dr NE, St. Petersburg, FL 33701</string>
+    <string name="greatExplorationsTitle">Great Explorations Children\'s Museum</string>
+    <string name="greatExplorationsAddress">1925 4th St N, St. Petersburg, FL 33704</string>
+    <string name="holocaustTitle">Florida Holocaust Museum</string>
+    <string name="holocaustAddress">55 5th St S, St. Petersburg, FL 33701</string>
+    <string name="passAGrilleTitle">Pass-A-Grille Beach</string>
+    <string name="passAGrilleAddress">113 11th Ave, St. Pete Beach, FL 33706</string>
+    <string name="treasureIslandTitle">Treasure Island</string>
+    <string name="treasureIslandAddress">10400 Gulf Blvd, Treasure Island, FL 33706</string>
+    <string name="archibaldBeachTitle">Archibald Beach Park</string>
+    <string name="archibaldBeachAddress">15100 Gulf Blvd, St. Petersburg, FL 33708</string>
+    <string name="indianRocksTitle">Indian Rocks Beach</string>
+    <string name="indianRocksAddress">1700 Gulf Blvd, Indian Rocks Beach, FL 33785</string>
 </resources>

@@ -30,10 +30,10 @@ public class MuseumsFragment extends Fragment {
 
 
         final ArrayList<Attraction> attractions = new ArrayList<Attraction>();
-        attractions.add(new Attraction("Salvador Dalí Museum", "1 Dali Blvd, St Petersburg, FL 33701", R.drawable.salvadordali_museum));
-        attractions.add(new Attraction("Museum of Fine Arts", "255 Beach Dr NE, St. Petersburg, FL 33701", R.drawable.finearts_museum));
-        attractions.add(new Attraction("Great Explorations Children's Museum", "1925 4th St N, St. Petersburg, FL 33704", R.drawable.childrens_museum));
-        attractions.add(new Attraction("Florida Holocaust Museum", " 55 5th St S, St. Petersburg, FL 33701", R.drawable.holocaust_museum));
+        attractions.add(new Attraction(getString(R.string.salvadorDaliTitle), getString(R.string.salvadorDaliAddress), R.drawable.salvadordali_museum));
+        attractions.add(new Attraction(getString(R.string.fineArtsTitle), getString(R.string.fineArtsAddress), R.drawable.finearts_museum));
+        attractions.add(new Attraction(getString(R.string.greatExplorationsTitle), getString(R.string.greatExplorationsAddress), R.drawable.childrens_museum));
+        attractions.add(new Attraction(getString(R.string.holocaustTitle), getString(R.string.holocaustAddress), R.drawable.holocaust_museum));
 
         AttractionAdapter adapter = new AttractionAdapter(getActivity(), attractions, R.color.category_museums);
 
